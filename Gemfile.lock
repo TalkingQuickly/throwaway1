@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/ben/proj/capistrano-cookbook
+GIT
+  remote: git@github.com:TalkingQuickly/capistrano-cookbook.git
+  revision: 66f0f398f042c9bbd476f0b139a771fb95c62910
   specs:
     capistrano-cookbook (0.0.1)
 
