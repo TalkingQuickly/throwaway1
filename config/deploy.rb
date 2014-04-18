@@ -2,7 +2,7 @@
 lock '3.1.0'
 
 set :application, 'test_app'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :repo_url, 'git@github.com:TalkingQuickly/throwaway1.git'
 set :deploy_user, 'deploy'
 
 set :rbenv_type, :system

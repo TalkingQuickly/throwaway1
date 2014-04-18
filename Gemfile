@@ -14,20 +14,22 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-gem 'capistrano', '~> 3.1.0'
+group :development do
+  gem 'capistrano', '~> 3.1.0'
 
-# rails specific capistrano funcitons
-gem 'capistrano-rails', '~> 1.1.0'
+  # rails specific capistrano funcitons
+  gem 'capistrano-rails', '~> 1.1.0'
 
-# integrate bundler with capistrano
-gem 'capistrano-bundler'
+  # integrate bundler with capistrano
+  gem 'capistrano-bundler'
 
-# if you are using RBENV
-gem 'capistrano-rbenv', "~> 2.0" 
+  # if you are using RBENV
+  gem 'capistrano-rbenv', "~> 2.0" 
 
-gem 'capistrano-cookbook', path: "/Users/ben/proj/capistrano-cookbook"
+  gem 'capistrano-cookbook', path: "/Users/ben/proj/capistrano-cookbook"
 
-gem 'pry-rails', :group => :development
+  gem 'pry-rails'
+end
 
 # Use the Unicorn app server
 gem 'unicorn'
