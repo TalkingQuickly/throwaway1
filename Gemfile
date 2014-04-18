@@ -27,6 +27,8 @@ gem 'capistrano-rbenv', "~> 2.0"
 
 gem 'capistrano-cookbook', path: "/Users/ben/proj/capistrano-cookbook"
 
+gem 'pry-rails', :group => :development
+
 # Use the Unicorn app server
 gem 'unicorn'
 
