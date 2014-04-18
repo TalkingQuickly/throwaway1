@@ -28,8 +28,8 @@ group :development do
   # if you are using RBENV
   gem 'capistrano-rbenv', "~> 2.0" 
 
-  gem 'capistrano-cookbook', git: 'git@github.com:TalkingQuickly/capistrano-cookbook.git'
-  #gem 'capistrano-cookbook', path: "/Users/ben/proj/capistrano-cookbook"
+  #gem 'capistrano-cookbook', git: 'git@github.com:TalkingQuickly/capistrano-cookbook.git'
+  gem 'capistrano-cookbook', path: "/Users/ben/proj/capistrano-cookbook"
 
   gem 'pry-rails'
 end
